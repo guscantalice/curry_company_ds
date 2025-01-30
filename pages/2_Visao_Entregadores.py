@@ -16,7 +16,7 @@ st.set_page_config(page_title="Visão Entregadores", page_icon="🛵", layout="w
 
 
 #ler arquivo
-df = pd.read_csv("C:\\Users\\aguiar.gustavo\\Documents\\repos\\ftc_programacao_python\\dataset\\train.csv")
+df = pd.read_csv("dataset\train.csv")
 
 #Criando Copia
 df1 = df.copy()
