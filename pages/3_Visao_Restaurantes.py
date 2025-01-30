@@ -17,7 +17,7 @@ st.set_page_config(page_title="Visão Restaurantes", page_icon="🥪", layout="w
 
 
 #ler arquivo
-df = pd.read_csv("dataset\train.csv")
+df = pd.read_csv("ftc_programacao_python/dataset/train.csv")
 
 #Criando Copia
 df1 = df.copy()
